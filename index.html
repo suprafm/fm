@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -426,7 +425,6 @@
 
 
 
-
 <script src="assets/js/lunaradio.js"></script>
 <script>
 $("#player").lunaradio({
@@ -438,10 +436,10 @@ hightlightcolor: "#3811D4",
 fontname: "Unica One",
 googlefont: "Unica+One&display=swap", 
 fontratio: "0.4", 
-radioname: "Tu Zona V.I.P #Demoledora", //nombre de radio
+radioname: "SUPRA FM | HD RADIO", //nombre de radio
 scroll: "true",
 autoplay: "true", 
-coverimage: "https://radioshdstreaming.com/vip/img/album1.png", //link o ruta de logo radio
+coverimage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKjjKy3xG7TvVtn_m6SR3Vbf8mIM2PKyk945T91VYEY5eWvzAd3k0GsTwTG00ZLKUP-A6SFjT9JAg6FKZ9O-CRYik_OduyBqAy6crNgwbN9iw1mvBDi7BhEpvQHN47rpBHTPZrkOJTJwBANdNX07lsP56bLSKWCr5hjq6rPzaC_lH1Q_a57MBEg_DN-Uwg/s400/512.png", //link o ruta de logo radio
 onlycoverimage: "false", //true para mostrar solo logo radio
 coverstyle: "animated",//circle o square o hits1
 usevisualizer: "real", 
@@ -454,10 +452,9 @@ color4: "#00ffea",
 visualizeropacity: "1.0",
 usestreamcorsproxy: "false", //true o false
 corsproxy: "https://evsportugal.herokuapp.com/?q=", 
-
-streamtype: "icecast2", //shoutcast2, icecast2, radiozeno, radionomy, radiojar, radioco
-src= "http://192.168.1.233:8040",
-radio_stream:",
+streamurl: "https://192.168.1.233:8040", 
+streamtype: "centova", //shoutcast2, icecast2, radiozeno, radionomy, radiojar, radioco
+icecastmountpoint: "/stream",
 shoutcastpath: "/stream",
 streamid: "1", 
 streamsuffix: "", 
@@ -472,7 +469,6 @@ volume: "100",
 debug: "true",
 });
 </script>
-
 
 <script>
         function relogio() {
